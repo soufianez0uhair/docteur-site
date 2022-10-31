@@ -1,0 +1,14 @@
+.btn {
+    &--whatsapp {
+        color: $brandGreen;
+        padding: 1rem 2rem;
+        border: .1rem solid $brandGreen;
+        border-radius: 3rem;
+        font-weight: 500;
+        &:hover {
+            background: $brandGreen;
+            color: #fff;
+            border: none;
+        }
+    }
+}

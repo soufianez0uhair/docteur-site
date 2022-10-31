@@ -1,6 +1,10 @@
+import Intro from "./components/Intro";
+
 const App = () => {
   return (
-    <h1>App component</h1>
+    <main className="App">
+      <Intro />
+    </main>
   )
 }
 

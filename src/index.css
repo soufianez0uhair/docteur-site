@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+img {
+  width: 100%; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; }
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0; }
+
+.logo {
+  font-weight: 400;
+  color: #212529; }
+  .logo span {
+    color: #00856F; }
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem; }
+
+.nav {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  font-size: 1.3rem; }
+  .nav__option {
+    color: #00856F; }
+    .nav__option:hover::after {
+      width: 100%; }
+    .nav__option::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: .1rem;
+      background: #00856F;
+      transition: all .2s ease-in; }
+
+.intro {
+  background: #DCE9E2; }
+
+.btn--whatsapp {
+  color: #00856F;
+  padding: 1rem 2rem;
+  border: 0.1rem solid #00856F;
+  border-radius: 3rem;
+  font-weight: 500; }
+  .btn--whatsapp:hover {
+    background: #00856F;
+    color: #fff;
+    border: none; }

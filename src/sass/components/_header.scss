@@ -1,0 +1,15 @@
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.logo {
+    font-weight: 400;
+    color: $grayHeadline;
+    span {
+        color: $brandGreen;
+    }
+}
