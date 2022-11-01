@@ -53,9 +53,6 @@ body {
       background: #00856F;
       transition: all .2s ease-in; }
 
-.intro {
-  background: #DCE9E2; }
-
 .btn {
   display: flex;
   align-items: center;
@@ -113,6 +110,11 @@ body {
     background: #DCE9E2;
     padding: .5rem;
     border-radius: 50%; }
+  .icon--socialMedia {
+    color: #fff;
+    font-size: 2rem; }
+    .icon--socialMedia:hover {
+      opacity: .8; }
 
 .board {
   position: absolute;
@@ -200,3 +202,25 @@ body {
   .contact__img {
     width: 45rem;
     border-radius: 1rem; }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0; }
+  .footer__logo {
+    font-size: 3rem;
+    color: #fff; }
+    .footer__logo span {
+      font-weight: 500; }
+  .footer__icons {
+    display: flex;
+    gap: 1rem;
+    color: #fff; }
+
+.section {
+  width: 100%; }
+  .section--green {
+    background: #00856F; }
+  .section--greenLight {
+    background: #DCE9E2; }

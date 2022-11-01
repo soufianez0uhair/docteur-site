@@ -3,7 +3,7 @@ import Hero from "./Hero";
 
 const Intro = () => {
     return (
-        <div className="intro">
+        <div className="section--greenLight">
             <div className="wrapper">
                 <Header />
                 <Hero />

@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    &__logo {
+        font-size: 3rem;
+        color: #fff;
+        span {
+            font-weight: 500;
+        }
+    }
+    &__icons {
+        display: flex;
+        gap: 1rem;
+        color: #fff;
+    }
+}

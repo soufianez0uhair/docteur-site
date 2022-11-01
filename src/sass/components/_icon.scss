@@ -7,4 +7,11 @@
         padding: .5rem;
         border-radius: 50%;
     }
+    &--socialMedia {
+        color: #fff;
+        font-size: 2rem;
+        &:hover {
+            opacity: .8;
+        }
+    }
 }

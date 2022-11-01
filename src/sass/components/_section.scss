@@ -1,0 +1,9 @@
+.section {
+    width: 100%;
+    &--green {
+        background: $brandGreen;
+    }
+    &--greenLight {
+        background: $brandGreenLight;
+    }
+}
