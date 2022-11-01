@@ -32,7 +32,7 @@ body {
     color: #00856F; }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 2rem; }
 
@@ -144,7 +144,7 @@ body {
       color: #00856F; }
 
 .servicesSection {
-  padding: 8rem 4rem; }
+  padding: 8rem 0; }
   .servicesSection__title, .servicesSection__question {
     text-align: center; }
   .servicesSection__title {
@@ -171,3 +171,32 @@ body {
   .service__description {
     font-weight: 300;
     font-size: 1.3rem; }
+
+.contactPage {
+  background: #DCE9E2;
+  padding: 2rem 0; }
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .contact__text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 40rem; }
+  .contact__title {
+    font-size: 3rem; }
+  .contact__options {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; }
+  .contact__option {
+    display: flex;
+    align-items: center;
+    gap: .5rem; }
+    .contact__option:hover {
+      color: #00856F; }
+  .contact__img {
+    width: 45rem;
+    border-radius: 1rem; }
