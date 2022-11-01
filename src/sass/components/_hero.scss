@@ -2,6 +2,11 @@
     position: relative;
     display: flex;
     justify-content: space-between;
+    @include breakpoints($tablet) {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
     &__text {
         display: flex;
         flex-direction: column;

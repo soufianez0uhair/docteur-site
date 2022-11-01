@@ -83,6 +83,11 @@ body {
   position: relative;
   display: flex;
   justify-content: space-between; }
+  @media (max-width: 800px) {
+    .hero {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem; } }
   .hero__text {
     display: flex;
     flex-direction: column;
