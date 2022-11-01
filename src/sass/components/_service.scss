@@ -1,0 +1,16 @@
+.service {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    border: .1rem solid $grayBox;
+    border-radius: .5rem;
+    &__title {
+        font-weight: 500;
+        font-size: 1.6rem;
+    }
+    &__description {
+        font-weight: 300;
+        font-size: 1.3rem;
+    }
+}

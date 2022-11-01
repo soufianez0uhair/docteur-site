@@ -1,0 +1,19 @@
+.servicesSection {
+    padding: 8rem 4rem;
+    &__title, &__question {
+        text-align: center;
+    }
+    &__title {
+        color: $brandGreen;
+        font-size: 2rem;
+    }
+    &__question {
+        font-size: 3rem;
+        margin: 2rem 0;
+    }
+    &__services {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
+        gap: 1.5rem;
+    }
+}

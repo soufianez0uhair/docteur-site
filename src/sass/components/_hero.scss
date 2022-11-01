@@ -1,6 +1,7 @@
 .hero {
     position: relative;
     display: flex;
+    justify-content: space-between;
     &__text {
         display: flex;
         flex-direction: column;
