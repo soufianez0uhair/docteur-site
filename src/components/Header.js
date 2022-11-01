@@ -7,7 +7,7 @@ const Header = () => {
                 <li><a className="nav__option" href="#services">Services</a></li>
                 <li><a className="nav__option" href="#contact">Contact</a></li>
             </ul>
-            <a target="_blank" href="http://wa.me/212614671572" className="btn btn--whatsapp">Rendez-vous sur Whatsapp</a>
+            <a target="_blank" href="http://wa.me/212614671572" className="btn btn--header">Rendez-vous sur Whatsapp</a>
         </header>
     )
 }

@@ -1,5 +1,20 @@
 .btn {
-    &--whatsapp {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    background: $brandGreen;
+    color: #fff;
+    width: max-content;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    font-size: 1.2rem;
+    &:hover {
+        background: none;
+        border: .1rem solid $brandGreen;
+        color: $brandGreen;
+    }
+    &--header {
+        background: none;
         color: $brandGreen;
         padding: 1rem 2rem;
         border: .1rem solid $brandGreen;
