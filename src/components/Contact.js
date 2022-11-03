@@ -6,7 +6,7 @@ import PatientDoctor from '../assets/patientwithdoctor.jpg';
 
 const Contact = () => {
     return (
-        <div className="contactPage">
+        <div className="section section--greenLight">
             <div className="contact wrapper">
                 <div className="contact__text">
                     <h1 className="contact__title">N'hesitez pas de nous visiter!</h1>

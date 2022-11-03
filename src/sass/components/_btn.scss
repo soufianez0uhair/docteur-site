@@ -20,6 +20,9 @@
         border: .1rem solid $brandGreen;
         border-radius: 3rem;
         font-weight: 500;
+        @include breakpoints($tablet) {
+            display: none;
+        }
         &:hover {
             background: $brandGreen;
             color: #fff;

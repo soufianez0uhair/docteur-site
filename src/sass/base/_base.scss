@@ -6,6 +6,9 @@
 
 html {
     font-size: 62.5%;
+    @include breakpoints($mobile) {
+        font-size: 58%;
+    }
 }
 
 img {

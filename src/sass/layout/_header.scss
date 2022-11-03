@@ -1,15 +1,28 @@
 .header {
-    position: relative;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 2;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 0;
+    padding: 2rem;
+    background: $brandGreenLight;
+    @include breakpoints($tablet) {
+        background: $brandGreen;
+    }
 }
 
 .logo {
     font-weight: 400;
     color: $grayHeadline;
+    @include breakpoints($tablet) {
+        color: #fff;
+    }
     span {
         color: $brandGreen;
+        @include breakpoints($tablet) {
+            color: #fff;
+        }
     }
 }

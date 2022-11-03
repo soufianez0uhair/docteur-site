@@ -3,8 +3,25 @@
     display: flex;
     gap: 2rem;
     font-size: 1.3rem;
+    @include breakpoints($tablet) {
+        position: absolute;
+        top: 100%;
+        background: $brandGreen;
+        right: 0;
+        min-height: calc(100vh - 5rem);
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+        transition: left .3s ease-in;
+    }
     &__option {
         color: $brandGreen;
+        @include breakpoints($tablet) {
+            color: #fff;
+        }
         &:hover {
             &::after {
                 width: 100%;
@@ -17,6 +34,9 @@
             height: .1rem;
             background: $brandGreen;
             transition: all .2s ease-in;
+            @include breakpoints($tablet) {
+                background:#fff;
+            }
         }
     }
 }

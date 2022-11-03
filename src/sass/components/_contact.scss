@@ -7,11 +7,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
+    @include breakpoints($tablet) {
+        flex-direction: column;
+    }
     &__text {
         display: flex;
         flex-direction: column;
         gap: 2rem;
-        width: 40rem;
+        max-width: 40rem;
+        @include breakpoints($mobile) {
+            max-width: 30rem;
+        }
     }
     &__title {
         font-size: 3rem;
@@ -32,5 +39,8 @@
     &__img {
         width: 45rem;
         border-radius: 1rem;
+        @include breakpoints($mobile) {
+            width: 30rem;
+        }
     }
 }
