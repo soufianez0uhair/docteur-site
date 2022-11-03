@@ -13,8 +13,11 @@
         background: #fff;
         padding: 2rem 5rem;
         border-radius: 1rem;
-        gap: 1rem;
         box-shadow: .5rem 1rem 2rem rgba(0,0,0,.1);
+        @include breakpoints($tablet) {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
     }
     &__column {
         display: flex;
@@ -22,6 +25,14 @@
         align-items: center;
         gap: 1rem;
         padding: 0 1rem;
+        &:first-child {
+            border-right: .1rem solid rgba(0,0,0,.3);
+            @include breakpoints($tablet) {
+                border-right: none;
+                border-bottom: .1rem solid rgba(0,0,0,.3);
+                padding-bottom: 1rem;
+            }
+        }
         &__nombre {
             font-size: 3rem;
         }
